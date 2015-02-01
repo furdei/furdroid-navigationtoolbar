@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/navigation_item_width"
+    android:layout_height="@dimen/navigation_item_height">
+
+    <ImageView
+        android:id="@+id/navigation_item_icon"
+        android:layout_width="@dimen/navigation_item_height"
+        android:layout_height="@dimen/navigation_item_height"
+        android:background="@android:color/transparent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

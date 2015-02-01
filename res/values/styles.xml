@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NavigationToolbar">
+        <!-- a width of the navigation bar NOT including shadow -->
+        <attr name="navigationToolbarWidth" format="dimension|reference" />
+
+        <!-- a width of the navigation bar shadow that is drawn above the content -->
+        <!-- zero means use default width of the drawable 'navigationToolbarShadowDrawable' -->
+        <attr name="navigationToolbarShadowWidth" format="dimension|reference" />
+
+        <!-- drawable used to draw a toolbar shadow over a content -->
+        <attr name="navigationToolbarShadowDrawable" format="reference" />
+
+        <!-- color used to tint icons in 'pressed' state -->
+        <attr name="navigationToolbarColorPrimaryDark" format="reference|color" />
+
+        <!-- color used to tint icons in 'normal' state -->
+        <attr name="navigationToolbarColorPrimary" format="reference|color" />
+
+        <!-- color used to tint icons in 'focused' state and for a ripple effect -->
+        <attr name="navigationToolbarColorAccent" format="reference|color" />
+
+        <!-- menu resource to inflate Navigation Toolbar items -->
+        <attr name="navigationToolbarMenu" format="reference" />
+    </declare-styleable>
+
+    <!-- a style to be used in custom themes -->
+    <declare-styleable name="NavigationToolbarTheme">
+        <attr name="navigationToolbarStyle" format="reference" />
+    </declare-styleable>
+
+    <!-- default style for NavigationToolbar -->
+    <style name="Widget.NavigationToolbar" parent="android:style/Widget">
+        <item name="navigationToolbarWidth">@dimen/navigation_item_width</item>
+        <item name="navigationToolbarShadowWidth">@dimen/navigation_item_shadow_width</item>
+        <item name="navigationToolbarShadowDrawable">@drawable/toolbar_shadow</item>
+        <item name="navigationToolbarColorPrimaryDark">@color/dark_blue</item>
+        <item name="navigationToolbarColorPrimary">@color/no_tint</item>
+        <item name="navigationToolbarColorAccent">@color/light_blue</item>
+    </style>
+
+    <color name="no_tint">#00000000</color>
+    <color name="dark_blue">#ff0099cc</color>
+    <color name="light_blue">#ff33b5e5</color>
+
+</resources>
