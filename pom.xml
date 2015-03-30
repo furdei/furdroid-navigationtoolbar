@@ -4,10 +4,10 @@
     <parent>
         <artifactId>furdroid</artifactId>
         <groupId>systems.furdei</groupId>
-        <version>1.1.1</version>
+        <version>1.1.2-SNAPSHOT</version>
     </parent>
     <artifactId>furdroid-navigationtoolbar</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2-SNAPSHOT</version>
     <packaging>aar</packaging>
     <name>furdroid-navigationtoolbar</name>
     <description>Material Navigation Toolbar for Android</description>
@@ -25,7 +25,7 @@
         <url>https://github.com/furdei/furdroid-navigationtoolbar</url>
         <connection>scm:git:git://github.com/furdei/furdroid-navigationtoolbar.git</connection>
         <developerConnection>scm:git:https://github.com/furdei/furdroid-navigationtoolbar.git</developerConnection>
-        <tag>furdroid-navigationtoolbar-1.1.1</tag>
+        <tag>furdroid-navigationtoolbar-1.0</tag>
     </scm>
 
     <dependencies>
@@ -46,13 +46,13 @@
         <dependency>
             <groupId>systems.furdei</groupId>
             <artifactId>ripple-drawable</artifactId>
-            <version>1.1.1</version>
+            <version>1.1.2-SNAPSHOT</version>
             <type>aar</type>
         </dependency>
         <dependency>
             <groupId>systems.furdei</groupId>
             <artifactId>furdroid-components</artifactId>
-            <version>1.1.1</version>
+            <version>1.1.2-SNAPSHOT</version>
             <type>aar</type>
         </dependency>
     </dependencies>
