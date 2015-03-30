@@ -43,7 +43,7 @@ import com.furdei.furdroid.navigationtoolbar.internal.NavigationItemInflater;
  *
  *      <!-- Main layout -->
  *      <FrameLayout
-*           android:id="@+id/activity_content"
+ *          android:id="@+id/activity_content"
  *          android:layout_width="match_parent"
  *          android:layout_height="match_parent">
  *      </FrameLayout>
